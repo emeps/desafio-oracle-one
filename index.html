@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challange - Criptografador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <textarea class="textarea" id="text-input" placeholder="Digite seu texto"></textarea>
+            <div class="content-info">
+                <p class="instructions"><span></span>Apenas letras minúsculas e sem acento.</p>
+            <div class="buttons">
+                <button class="crypt" id="crypt">Criptografar</button>
+                <button class="decrypt" id="decrypt">Descriptografar</button>
+            </div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div class="no-message">
+               <div class="image-content" >
+                    <img src="./img/pf.svg" alt="Nenhuma mensagem encontrada">
+                    <p class="title-no-message">Nenhuma mensagem encontrada</p>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+               </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/processMessage.js"></script>
+</body>
+</html>
